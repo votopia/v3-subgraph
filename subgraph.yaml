@@ -9,7 +9,7 @@ features:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: optopia-testnet
     source:
       address: '0x2356C2fd28B44a0E5b2440e38174E0507B2ca7E3'
       abi: Factory
