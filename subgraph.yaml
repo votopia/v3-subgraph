@@ -39,7 +39,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: mainnet
+    network: optopia-testnet
     source:
       abi: Pool
     mapping:
