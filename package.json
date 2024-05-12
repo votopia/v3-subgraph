@@ -9,7 +9,7 @@
     "buildonly": "graph build",
     "deploy:alchemy": "graph deploy --node https://subgraphs.alchemy.com/api/subgraphs/deploy --ipfs https://ipfs.satsuma.xyz",
     "codegen": "graph codegen --output-dir src/types/",
-    "create-local": "graph create --node http://127.0.0.1:8020",
+    "create-local": "graph create --node http://127.0.0.1:8020 votopia-subgraph",
     "deploy-local": "graph deploy --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy": "graph deploy ianlapham/uniswap-v3-subgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
     "deploy-dev": "graph deploy sommelier/uniswap-v3 --ipfs http://35.197.14.14:5000/ --node http://35.197.14.14:8020/ --debug",
