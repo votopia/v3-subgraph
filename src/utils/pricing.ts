@@ -4,8 +4,8 @@ import { exponentToBigDecimal, safeDiv } from '../utils/index'
 import { Bundle, Pool, Token } from './../types/schema'
 import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 
-const WETH_ADDRESS = '0x0c9F90987b7Dc0b3712F776dC2BF3346e4f26fA1'
-const USDC_WETH_03_POOL = '0xCFd0Ff596a0520C52764FcDFA0d0671d3e75CdF3'
+const WETH_ADDRESS = '0x98E1817244d130D8fE05591ba517d3f24Db035Ec'
+const USDC_WETH_03_POOL = '0x6C43137209A306E15E519be17D41E60BC3852c0d'
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
