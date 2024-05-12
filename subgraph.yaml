@@ -1,6 +1,6 @@
 specVersion: 0.0.4
-description: Uniswap is a decentralized protocol for automated token exchange on Ethereum.
-repository: https://github.com/Uniswap/uniswap-v3-subgraph
+description: Votopia is a decentralized protocol for automated token exchange on Optopia Network.
+repository: https://github.com/votopia/v3-subgraph
 schema:
   file: ./schema.graphql
 features:
@@ -11,9 +11,9 @@ dataSources:
     name: Factory
     network: mainnet
     source:
-      address: '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+      address: '0x2356C2fd28B44a0E5b2440e38174E0507B2ca7E3'
       abi: Factory
-      startBlock: 12369621
+      startBlock: 1500000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
