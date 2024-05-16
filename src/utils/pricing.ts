@@ -18,7 +18,7 @@ const STABLE_COINS: string[] = [
   '0xd1fe20f19f18f4f26cbcf97a2367a47c3866d98e',
 ]
 
-const MINIMUM_ETH_LOCKED = BigDecimal.fromString('60')
+const MINIMUM_ETH_LOCKED = BigDecimal.fromString('0.01')
 
 const Q192 = BigInt.fromI32(2).pow(192 as u8)
 export function sqrtPriceX96ToTokenPrices(sqrtPriceX96: BigInt, token0: Token, token1: Token): BigDecimal[] {
