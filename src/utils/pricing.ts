@@ -11,6 +11,7 @@ const USDC_WETH_03_POOL = '0x6c43137209a306e15e519be17d41e60bc3852c0d'
 // usually tokens that many tokens are paired with s
 export const WHITELIST_TOKENS: string[] = [
   WETH_ADDRESS, // WETH
+  "0xf4c3a4d9568672fb4a8174efd29ddab6255e8729"
 ]
 
 const STABLE_COINS: string[] = [
