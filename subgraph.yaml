@@ -11,7 +11,7 @@ dataSources:
     name: Factory
     network: optopia
     source:
-      address: '0x0c9f90987b7dc0b3712f776dc2bf3346e4f26fa1'
+      address: '0x07b01ed8b5637e2b3437181662853a856d30dad5'
       abi: Factory
       startBlock: 500000
     mapping:
