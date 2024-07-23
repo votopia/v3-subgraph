@@ -5,7 +5,7 @@ import { Bundle, Pool, Token } from './../types/schema'
 import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 
 const WETH_ADDRESS = '0x4200000000000000000000000000000000000006'
-const USDC_WETH_03_POOL = '0xa9e44af61d968d6f925e3fb5a9c0ca01ad1513ce'
+const USDC_WETH_03_POOL = '0x642353de10d7b62492b44282d69f86347521d368'
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
@@ -13,6 +13,7 @@ export const WHITELIST_TOKENS: string[] = [
   WETH_ADDRESS, // WETH
   "0xb62f35b9546a908d11c5803ecbba735abc3e3eae", // USDC
   "0x05d032ac25d322df992303dca074ee7392c117b9", // USDT
+  "0xf4c3a4d9568672fb4a8174efd29ddab6255e8729", // OPAI
 ]
 
 const STABLE_COINS: string[] = [
